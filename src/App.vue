@@ -1,28 +1,52 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="container">
+    <Marquee/>
+    <div id="about-me">
+      <b>hi i'm <u>l o l a</u></b>
+      <br>
+      <br>
+      i make my living as a web developer and i like plenty of other things
+      <br>
+      <br>
+      i live in paris and am not super sure what to put in this space yet
+    </div>
+    <PrizeButton/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Marquee from './components/Marquee.vue'
+import PrizeButton from './components/PrizeButton.vue'
+
 
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  name: 'Homepage',
+  components: { Marquee, PrizeButton }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+body {
+  background: url('./assets/gegebg.png') repeat;
+  background-size: 350px;
+}
+
+#container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-me {
+  background: white;
+  opacity: .6;
+  width: 200px;
+  font-family: monospace, monospace;
+  font-size: 12px;
+  border: 5px dashed orange;
+  outline: 5px dotted blue;
+  padding: 20px;
 }
 </style>
