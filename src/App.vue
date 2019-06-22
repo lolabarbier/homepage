@@ -5,7 +5,7 @@
       <b>hi i'm <u>l o l a</u></b>
       <br>
       <br>
-      i make my living as a web developer and i like plenty of other things
+      i like many things but i make my living as a web developer
       <br>
       <br>
       i live in paris and am not super sure what to put in this space yet

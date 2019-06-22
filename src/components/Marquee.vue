@@ -4,6 +4,7 @@
       <p class="sparkles">*✲ﾟ*｡⋆</p>
       grahic design is my passion
       <p class="sparkles">⋆｡*ﾟ✲*</p>
+      <audio id="audio" src="../assets/gegebg.png"></audio>
     </div>
   </div>
 </template>
