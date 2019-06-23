@@ -2,6 +2,7 @@
   <div id="container">
     <Marquee/>
     <AboutMe/>
+    <ContactSection/>
     <PrizeButton/>
   </div>
 </template>
@@ -9,12 +10,13 @@
 <script>
 import Marquee from './components/Marquee.vue';
 import AboutMe from './components/AboutMe.vue';
+import ContactSection from './components/ContactSection.vue';
 import PrizeButton from './components/PrizeButton.vue';
 
 
 export default {
   name: 'Homepage',
-  components: { Marquee, AboutMe, PrizeButton }
+  components: { Marquee, AboutMe, ContactSection, PrizeButton }
 }
 </script>
 

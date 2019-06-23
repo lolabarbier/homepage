@@ -22,12 +22,12 @@ export default {
 <style lang="scss">
 #about-me {
   background: white;
-  opacity: .6;
+  opacity: .9;
   width: 200px;
   font-family: monospace, monospace;
   font-size: 12px;
-  border: 5px dashed orange;
-  outline: 5px dotted blue;
+  border: 5px dashed #f4932e;
+  outline: 5px dotted #461ef9;
   padding: 20px;
 }
 </style>
